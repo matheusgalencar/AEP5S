@@ -26,6 +26,10 @@ public class Solicitacao extends Usuario{
         return status;
     }
 
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
     public void setStatus(StatusSolicitacao status) {
         this.status = status;
     }

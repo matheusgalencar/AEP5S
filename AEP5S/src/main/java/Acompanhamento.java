@@ -34,4 +34,24 @@ public class Acompanhamento {
     public LocalDateTime getDataRegistro() {
         return dataRegistro;
     }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setSolicitacaoId(long solicitacaoId) {
+        this.solicitacaoId = solicitacaoId;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
+    }
+
+    public void setDataRegistro(LocalDateTime dataRegistro) {
+        this.dataRegistro = dataRegistro;
+    }
 }
